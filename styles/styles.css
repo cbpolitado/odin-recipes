@@ -85,19 +85,22 @@ a {
 
 .recipe-item {
     list-style-type: none;
-    margin-bottom: 25px;
-    padding-right: 0;
-    margin-left: -40px;
+    margin-bottom: 20px;
+    padding: 0;
 }
 
 .homepage-list {
     display: flex;
     flex-flow: column wrap;
-    margin-top: 40px;
+    padding: 20px;
 }
 
 .homepage-list img {
     width: 40vw;
-    margin: 0 20px;
+    margin-right: 20px;
     float: left;
+}
+
+.homepage-list p {
+    padding: 0;
 }
